@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    height: 149.8px;
+    z-index: 10;
+}
+.menu{
+    display: flex;
+    position: relative;
+    right: 50px;
+}
+.menu-item{
+    list-style: none;
+    padding-right: 80px;
+    cursor: pointer;
+}
+.menu-item:hover .dropmenu{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+.name{
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.name a{
+    text-decoration: none;
+    color: white;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.commander{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 100px;
+    border-bottom: 1px solid rgb(59, 58, 58);
+
+}
+.commander img{
+    position: relative;
+    right: 10px;
+}
+.search{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    right: 50px;
+    border-bottom: 1px solid rgb(59, 58, 58);
+    cursor: pointer;;
+}
+.panier{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(59, 58, 58);
+    cursor: pointer;
+}
+.panier img{
+    position: relative;
+    right: 10px;
+}
+.sup{
+    display: flex;
+    width: 1000px;
+}
+.inf{
+    position: relative;
+    display: flex;
+    text-align: center;
+    right: 100px;
+}
+.inf h4{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.intro img{
+    width: 100%;
+}
+.welcome{
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    color: white;
+}
+.welcome a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.livraison{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px dashed gray;
+}
+.liv{
+    display: flex;
+}
+.liv img{
+    position: relative;
+    right: 10px;
+}
+.liv h5{
+    font-weight: lighter;
+    color: gray;
+}
+.footer{
+    padding-top: 80px;
+    height: 300px;
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+}
+.footer h2{
+    color: #ae8625;
+    font-size: 30px;
+}
+.propos{
+    width: 500px;
+}
+.newsleter{
+    width: 500px;
+}
+.contct-icon{
+    width: 200px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    top:80px;
+}
+.log-in{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 445px;
+    height: 380px;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.log-in h2{
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+.log-in h3{
+    font-weight: lighter;
+    color: gray;
+    margin-bottom: 30px;
+}
+.log-in a{
+    text-decoration: none;
+    color: black;
+}
+#connect{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.mail input{
+    width: 200px;
+    height: 30px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.mail h6{
+    text-align: left;
+    position: relative;
+    right: 60px;
+    font-weight: lighter;
+}
+.mail img{
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    height: 30px;
+    padding-bottom: 1px;
+    border-radius: 2px;
+}
+.pwd{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.pwd input{
+    height: 30px;
+    width: 205px;
+}
+#pwd{
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 4px;
+    height: 20px;
+    padding-bottom: 10px;
+    border-radius: 2px;
+}
+
